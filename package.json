@@ -6,9 +6,12 @@
   "author": "<imdevyoussef@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev:client":"cd client && yarn dev"
+    "dev:client": "cd client && yarn dev",
+    "dev:server": "cd server && yarn dev",
+    "dev": "concurrently \"yarn dev:server\" \"yarn dev:client\""
   },
   "devDependencies": {
+    "@types/cors": "^2.8.19",
     "concurrently": "^9.2.1"
   }
 }
