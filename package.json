@@ -1,0 +1,14 @@
+{
+  "name": "full-stack-todo-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/devyoussefshaaban/full-stack-todo-app.git",
+  "author": "<imdevyoussef@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev:client":"cd client && yarn dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
